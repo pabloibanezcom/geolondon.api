@@ -1,0 +1,24 @@
+{
+  "name": "geolondon.api",
+  "author": "Pablo Ibanez",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.1",
+    "dotenv": "^4.0.0",
+    "express": "~4.14.0",
+    "express-session": "^1.15.0",
+    "mongoose": "^4.11.13",
+    "node-express-mongodb": "latest"
+  },
+  "engines": {
+    "node": "7.7.0",
+    "npm": "4.1.2"
+  }
+}

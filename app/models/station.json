@@ -1,0 +1,23 @@
+{
+    "name": "Station",
+    "route": "station",
+    "authLevel": "public",
+    "properties": {
+        "name": {
+            "type": "String"
+        },
+        "geometry": {
+            "type": "Point"
+        },
+        "farezones": [
+            {
+                "type": "Number"
+            }
+        ],
+        "lines": [
+            {
+                "type": "Line"
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "District",
+    "route": "district",
+    "authLevel": "public",
+    "properties": {
+        "name": {
+            "type": "String"
+        },
+        "geometry": {
+            "type": "Polygon"
+        }
+    }
+}
