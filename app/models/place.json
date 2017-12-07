@@ -1,0 +1,27 @@
+{
+    "name": "Place",
+    "route": "place",
+    "authLevel": "public",
+    "properties": {
+        "placeId": {
+            "type": "String"
+        },
+        "lastModified": {
+            "type": "Date"
+        },
+        "name": {
+            "type": "String"
+        },
+        "geometry": {
+            "type": "Point"
+        },
+        "types": [
+            {
+                "type": "String"
+            }
+        ],
+        "vicinity": {
+            "type": "String"
+        }
+    }
+}
